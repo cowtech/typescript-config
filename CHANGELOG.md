@@ -1,3 +1,7 @@
+### 2025-11-22 / 0.2.0
+
+- fix: Fixed exports.
+
 ### 2025-11-22 / 0.1.2
 
 - fix: Added missing file.
