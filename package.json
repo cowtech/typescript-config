@@ -20,6 +20,7 @@
   "private": false,
   "files": [
     "src",
+    "tsconfig.json",
     "CHANGELOG.md",
     "LICENSE.md",
     "README.md"
