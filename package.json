@@ -1,0 +1,52 @@
+{
+  "name": "@cowtech/typescript-config",
+  "version": "0.1.0",
+  "description": "CowTech TypesSript configuration",
+  "homepage": "https://github.com/cowtech/typescript-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowtech/typescript-config.git"
+  },
+  "keywords": [
+    "typescript",
+    "typescript-config",
+    "cowtech"
+  ],
+  "bugs": {
+    "url": "https://github.com/cowtech/typescript-config/issues"
+  },
+  "author": "Shogun <shogun@cowtech.it>",
+  "license": "ISC",
+  "private": false,
+  "files": [
+    "src",
+    "CHANGELOG.md",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "format": "prettier -w src",
+    "lint": "eslint --cache",
+    "test": "npm run lint",
+    "ci": "npm run lint",
+    "prepublishOnly": "npm run ci",
+    "postpublish": "git push origin && git push origin -f --tags"
+  },
+  "dependencies": {
+    "json5": "^2.2.3"
+  },
+  "devDependencies": {
+    "@cowtech/eslint-config": "10.2.0",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">= 20.18.0"
+  }
+}
