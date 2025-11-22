@@ -19,16 +19,17 @@
   "license": "ISC",
   "private": false,
   "files": [
-    "src",
+    "index.js",
+    "index.d.ts",
     "tsconfig.json",
     "CHANGELOG.md",
     "LICENSE.md",
     "README.md"
   ],
   "type": "module",
-  "main": "./src/index.js",
-  "exports": "./src/index.js",
-  "types": "./src/index.d.ts",
+  "main": "index.js",
+  "exports": "./index.js",
+  "types": "index.d.ts",
   "scripts": {
     "format": "prettier -w src",
     "lint": "eslint --cache",
