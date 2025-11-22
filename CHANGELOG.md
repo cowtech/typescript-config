@@ -1,3 +1,7 @@
+### 2025-11-22 / 0.2.1
+
+- fix: Fixed exports, again.
+
 ### 2025-11-22 / 0.2.0
 
 - fix: Fixed exports.
