@@ -40,7 +40,7 @@
     "json5": "^2.2.3"
   },
   "devDependencies": {
-    "@cowtech/eslint-config": "10.2.0",
+    "@cowtech/eslint-config": "^10.2.0",
     "@types/node": "^22.10.2",
     "eslint": "^9.17.0",
     "prettier": "^3.4.2",
