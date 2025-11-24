@@ -1,3 +1,7 @@
+### 2025-11-24 / 0.2.2
+
+- chore: Updated dependencies.
+
 ### 2025-11-22 / 0.2.1
 
 - fix: Fixed exports, again.
