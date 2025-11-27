@@ -7,14 +7,13 @@ CowTech TypeScript configuration
 
 https://sw.cowtech.it/typescript-config
 
-
 ## Usage
 
 ```sh
 npm install @cowtech/typescript-config
 ```
 
-Then  extend it in your project's `tsconfig.json`:
+Then extend it in your project's `tsconfig.json`:
 
 ```json
 {
@@ -67,8 +66,8 @@ Then  extend it in your project's `tsconfig.json`:
 | ---------------------------------------------- | ------ | -------------------------------------------------------- |
 | [`removeComments`][removeComments]             | `true` | Remove comments from compiled output for smaller bundles |
 | [`newLine`][newLine]                           | `lf`   | Use Unix-style line endings for consistency              |
-| [`verbatimModuleSyntax`][verbatimModuleSyntax] | `true` | Preserve module syntax more accurately in output        |
-| [`erasableSyntaxOnly`][erasableSyntaxOnly]     | `true` | Allow removal of only erasable syntax for cleaner code  |
+| [`verbatimModuleSyntax`][verbatimModuleSyntax] | `true` | Preserve module syntax more accurately in output         |
+| [`erasableSyntaxOnly`][erasableSyntaxOnly]     | `true` | Allow removal of only erasable syntax for cleaner code   |
 
 ## Contributing to @cowtech/typescript-config
 
