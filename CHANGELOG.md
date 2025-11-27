@@ -1,3 +1,7 @@
+### 2025-11-27 / 0.2.5
+
+- fix: Correctly sort type only imports.
+
 ### 2025-11-27 / 0.2.4
 
 - chore: Sanitized type only imports.
