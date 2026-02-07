@@ -1,3 +1,7 @@
+### 2026-02-07 / 0.2.6
+
+- feat: Export plain JSON config.
+
 ### 2025-11-27 / 0.2.5
 
 - fix: Correctly sort type only imports.
