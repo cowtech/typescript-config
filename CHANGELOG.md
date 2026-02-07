@@ -1,3 +1,7 @@
+### 2026-02-07 / 0.2.7
+
+- chore: Only export JSON.
+
 ### 2026-02-07 / 0.2.6
 
 - feat: Export plain JSON config.
